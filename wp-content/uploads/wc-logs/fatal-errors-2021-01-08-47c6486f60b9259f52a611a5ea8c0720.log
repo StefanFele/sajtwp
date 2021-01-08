@@ -1,0 +1,8 @@
+2021-01-08T19:33:05+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\sajtwp\wp-content\plugins\all-in-one-seo-pack\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:675
+Stack trace:
+#0 C:\xampp\htdocs\sajtwp\wp-content\plugins\all-in-one-seo-pack\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(599): ActionScheduler_DBStore->claim_actions(693, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\sajtwp\wp-content\plugins\all-in-one-seo-pack\vendor\woocommerce\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\sajtwp\wp-content\plugins\all-in-one-seo-pack\vendor\woocommerce\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#3 C:\xampp\htdocs\sajtwp\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#4 C:\xampp\htdocs\sajtwp\wp-includes\class-wp-hook.php(311): WP in C:\xampp\htdocs\sajtwp\wp-content\plugins\all-in-one-seo-pack\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 675
+
