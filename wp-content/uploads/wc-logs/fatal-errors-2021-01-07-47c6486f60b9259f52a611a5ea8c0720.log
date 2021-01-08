@@ -1,0 +1,2 @@
+2021-01-07T21:42:38+00:00 CRITICAL Out of memory (allocated 2097152) (tried to allocate 2621440 bytes) in C:\xampp\htdocs\sajtwp\wp-content\plugins\wpforms-lite\src\Admin\Challenge.php on line 252
+
